@@ -23,9 +23,9 @@ spring:
 #            - Cookie=username,[a-z]+
 #            - Header=username,[a-z]+
 #            - Method=POST,GET
-          filters:
-            - AddRequestParameter=name, R720
-            - AddResponseHeader=name, lyz
+#           filters:
+#             - AddRequestParameter=name, R720
+#             - AddResponseHeader=name, lyz
         - id: product-route
           uri: lb://products
           predicates:
