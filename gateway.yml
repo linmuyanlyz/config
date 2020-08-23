@@ -40,6 +40,12 @@ management:
       web:
         exposure:
           include: "*"
+spring:
+  rabbitmq:
+    addresses: 192.168.121.129
+    port: 5672
+    username: lyz
+    password: zxc970512
 
 
 
